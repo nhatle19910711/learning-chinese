@@ -1,0 +1,11 @@
+{
+  // Tên Worker — trùng với "Project name" trên Cloudflare
+  "name": "learning-chinese",
+  "compatibility_date": "2025-01-01",
+  // Web tĩnh: phục vụ trực tiếp các file trong thư mục dist (không cần code server)
+  "assets": {
+    "directory": "./dist",
+    // SPA fallback: route không khớp file nào sẽ trả về index.html (cho React Router)
+    "not_found_handling": "single-page-application"
+  }
+}
