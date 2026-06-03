@@ -12,6 +12,8 @@
   display: grid;
   gap: var(--space-4);
   grid-template-columns: 1fr;
+  /* Mọi hàng cao bằng nhau → tất cả card (Bài 0–5) cùng chiều cao. */
+  grid-auto-rows: 1fr;
 }
 @media (min-width: 640px) {
   .lesson-list {
@@ -24,14 +26,25 @@
   }
 }
 
+/* Mỗi <li> co giãn bằng nhau trong hàng; flex để Link con cao 100% theo li. */
+.lesson-list > li {
+  display: flex;
+}
 .lesson-list__item {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
   padding: var(--space-4);
   transition: transform 0.12s ease, border-color 0.12s ease;
 }
 .lesson-list__item:hover {
   transform: translateY(-2px);
   border-color: var(--color-primary);
+}
+/* Đẩy thanh tiến độ + dòng "đã thuộc" xuống đáy → thẳng hàng giữa các card. */
+.lesson-list__item .progress-bar {
+  margin-top: auto;
 }
 .lesson-list__head {
   display: flex;

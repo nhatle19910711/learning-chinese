@@ -1,0 +1,15 @@
+# Mẫu biến môi trường cho `wrangler dev`. Sao chép thành `.dev.vars` và điền giá trị thật.
+# `.dev.vars` đã được gitignore — KHÔNG commit secret.
+
+# API key Gemini (lấy ở https://aistudio.google.com/apikey)
+GEMINI_API_KEY=your-gemini-api-key-here
+
+# (tùy chọn) Nhiều key để xoay vòng tăng quota — ngăn cách bằng dấu phẩy.
+# Nếu đặt, sẽ ưu tiên dùng cái này (gặp 429 tự nhảy key kế). Bỏ trống → dùng GEMINI_API_KEY.
+# GEMINI_API_KEYS=key1,key2,key3
+
+# Mật khẩu chia sẻ để mở khóa tính năng AI (tự đặt)
+APP_PASSCODE=doi-mat-khau-nay
+
+# (tùy chọn) override model nếu muốn — bỏ trống dùng mặc định gemini-2.5-flash
+# GEMINI_MODEL=gemini-2.5-flash

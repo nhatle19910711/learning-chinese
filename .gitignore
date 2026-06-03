@@ -6,3 +6,9 @@ dist-ssr
 .vscode/*
 !.vscode/extensions.json
 npm-debug.log*
+tsconfig.tsbuildinfo
+
+# Cloudflare Worker
+.dev.vars
+.wrangler
+worker-configuration.d.ts

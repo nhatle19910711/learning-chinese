@@ -17,10 +17,9 @@ function getInitialTheme(): Theme {
   } catch {
     /* localStorage có thể bị chặn (private mode) */
   }
-  const prefersDark =
-    typeof window !== 'undefined' &&
-    window.matchMedia?.('(prefers-color-scheme: dark)').matches;
-  return prefersDark ? 'dark' : 'light';
+  // Mặc định light mode (không theo cài đặt tối của hệ điều hành).
+  // Người dùng vẫn đổi sang dark được và lựa chọn đó được ghi nhớ.
+  return 'light';
 }
 
 export function ThemeProvider({ children }: { children: ReactNode }) {

@@ -2,10 +2,16 @@
   // Tên Worker — trùng với "Project name" trên Cloudflare
   "name": "learning-chinese",
   "compatibility_date": "2025-01-01",
-  // Web tĩnh: phục vụ trực tiếp các file trong thư mục dist (không cần code server)
+  // Entry Worker: xử lý /api/* (proxy Gemini), còn lại trả static assets
+  "main": "worker/index.ts",
   "assets": {
     "directory": "./dist",
+    // Binding để code Worker gọi env.ASSETS.fetch() phục vụ SPA
+    "binding": "ASSETS",
     // SPA fallback: route không khớp file nào sẽ trả về index.html (cho React Router)
     "not_found_handling": "single-page-application"
   }
+  // Secrets (KHÔNG để ở đây): GEMINI_API_KEY, APP_PASSCODE
+  //   Prod: wrangler secret put GEMINI_API_KEY  /  wrangler secret put APP_PASSCODE
+  //   Dev:  file .dev.vars (đã gitignore)
 }

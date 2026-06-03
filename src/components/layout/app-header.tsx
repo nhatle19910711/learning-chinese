@@ -14,6 +14,9 @@ export function AppHeader() {
             <span>Học Tiếng Trung</span>
           </Link>
           <nav className="app-header__nav">
+            <Link to="/ai" className="app-header__link">
+              ✨ Luyện với AI
+            </Link>
             <button
               type="button"
               className="theme-toggle"

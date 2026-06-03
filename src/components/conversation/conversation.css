@@ -1,0 +1,115 @@
+/* Luyện hội thoại roleplay. */
+
+.conv,
+.scenario-picker {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  padding-block: var(--space-5);
+}
+.conv__head h1 {
+  margin: 0 0 var(--space-1);
+  font-size: 1.4rem;
+}
+
+.scenario-grid {
+  display: grid;
+  gap: var(--space-3);
+  grid-template-columns: 1fr 1fr;
+}
+.scenario-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-1);
+  text-align: left;
+  cursor: pointer;
+  padding: var(--space-4);
+}
+.scenario-card__icon {
+  font-size: 1.6rem;
+}
+.scenario-card__title {
+  font-weight: 600;
+}
+.scenario-card__hint {
+  font-size: 0.85rem;
+}
+
+.conv__bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+}
+.conv__exit {
+  background: transparent;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-1) var(--space-3);
+  cursor: pointer;
+  color: var(--color-fg);
+}
+.conv__title {
+  font-weight: 600;
+}
+
+.conv__thread {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  min-height: 40vh;
+}
+
+.dlg {
+  display: flex;
+}
+.dlg--user {
+  justify-content: flex-end;
+}
+.dlg--model {
+  justify-content: flex-start;
+}
+.dlg__bubble {
+  max-width: min(85%, 560px);
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+}
+.dlg--user .dlg__bubble {
+  background: var(--color-primary);
+  color: var(--color-primary-fg);
+  border-color: transparent;
+  border-bottom-right-radius: var(--radius-sm);
+  font-family: var(--font-cjk);
+}
+.dlg--model .dlg__bubble {
+  background: var(--color-card);
+  border-bottom-left-radius: var(--radius-sm);
+}
+.dlg__zh {
+  margin: 0;
+  font-family: var(--font-cjk);
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+.dlg__zh button {
+  background: transparent;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  padding: 0 var(--space-2);
+}
+.dlg__pinyin {
+  margin: var(--space-1) 0 0;
+  color: var(--color-accent);
+  font-size: 0.95rem;
+}
+.dlg__vi {
+  margin: var(--space-1) 0 0;
+  color: var(--color-muted);
+  font-size: 0.95rem;
+}

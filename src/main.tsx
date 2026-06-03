@@ -9,6 +9,12 @@ import { App } from './app';
 import { HomePage } from './routes/home-page';
 import { LessonPage } from './components/lesson/lesson-page';
 import { ReviewPage } from './components/review/review-page';
+import { TutorPage } from './components/tutor/tutor-page';
+import { AiHubPage } from './components/ai/ai-hub-page';
+import { SentenceGrader } from './components/grade/sentence-grader';
+import { AiExercisePanel } from './components/exercise/ai-exercise-panel';
+import { ConversationPage } from './components/conversation/conversation-page';
+import { TranslatorPage } from './components/translate/translator-page';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +24,12 @@ const router = createBrowserRouter([
       { index: true, element: <HomePage /> },
       { path: 'lesson/:id', element: <LessonPage /> },
       { path: 'review/:id', element: <ReviewPage /> },
+      { path: 'ai', element: <AiHubPage /> },
+      { path: 'tutor', element: <TutorPage /> },
+      { path: 'practice/grade', element: <SentenceGrader /> },
+      { path: 'practice/generate', element: <AiExercisePanel /> },
+      { path: 'practice/conversation', element: <ConversationPage /> },
+      { path: 'practice/translate', element: <TranslatorPage /> },
     ],
   },
 ]);

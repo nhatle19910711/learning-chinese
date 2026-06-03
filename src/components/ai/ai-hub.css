@@ -1,0 +1,33 @@
+.ai-hub {
+  padding-block: var(--space-5);
+}
+.ai-hub__head h1 {
+  margin: 0 0 var(--space-1);
+}
+.ai-hub__grid {
+  list-style: none;
+  margin: var(--space-5) 0 0;
+  padding: 0;
+  display: grid;
+  gap: var(--space-4);
+  grid-template-columns: 1fr;
+}
+@media (min-width: 640px) {
+  .ai-hub__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.ai-hub__item {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  height: 100%;
+  padding: var(--space-4);
+}
+.ai-hub__item h2 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+.ai-hub__icon {
+  font-size: 1.8rem;
+}
