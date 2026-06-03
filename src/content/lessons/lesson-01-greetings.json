@@ -1,0 +1,27 @@
+{
+  "id": "lesson-01-greetings",
+  "order": 1,
+  "title": "Bài 1: Chào hỏi & lịch sự",
+  "level": "HSK1",
+  "intro": "Những câu chào hỏi và từ lịch sự cơ bản nhất. Đây là nền tảng cho mọi cuộc trò chuyện.",
+  "vocab": [
+    { "hanzi": "你好", "pinyin": "nǐ hǎo", "vi": "xin chào", "tones": [3, 3], "example": { "hanzi": "你好！", "pinyin": "Nǐ hǎo!", "vi": "Xin chào!" } },
+    { "hanzi": "您好", "pinyin": "nín hǎo", "vi": "xin chào (lịch sự)", "tones": [2, 3] },
+    { "hanzi": "你", "pinyin": "nǐ", "vi": "bạn", "tones": [3] },
+    { "hanzi": "好", "pinyin": "hǎo", "vi": "tốt, khỏe", "tones": [3] },
+    { "hanzi": "谢谢", "pinyin": "xièxie", "vi": "cảm ơn", "tones": [4, 0], "example": { "hanzi": "谢谢你！", "pinyin": "Xièxie nǐ!", "vi": "Cảm ơn bạn!" } },
+    { "hanzi": "不客气", "pinyin": "bú kèqi", "vi": "không có gì", "tones": [2, 4, 0] },
+    { "hanzi": "对不起", "pinyin": "duìbuqǐ", "vi": "xin lỗi", "tones": [4, 0, 3] },
+    { "hanzi": "没关系", "pinyin": "méi guānxi", "vi": "không sao", "tones": [2, 1, 0] },
+    { "hanzi": "再见", "pinyin": "zàijiàn", "vi": "tạm biệt", "tones": [4, 4], "example": { "hanzi": "老师，再见！", "pinyin": "Lǎoshī, zàijiàn!", "vi": "Thầy/cô, tạm biệt!" } },
+    { "hanzi": "请", "pinyin": "qǐng", "vi": "mời, xin", "tones": [3] },
+    { "hanzi": "是", "pinyin": "shì", "vi": "là, đúng", "tones": [4] },
+    { "hanzi": "不", "pinyin": "bù", "vi": "không", "tones": [4] },
+    { "hanzi": "吗", "pinyin": "ma", "vi": "trợ từ hỏi (...không?)", "tones": [0] },
+    { "hanzi": "老师", "pinyin": "lǎoshī", "vi": "giáo viên", "tones": [3, 1] },
+    { "hanzi": "同学", "pinyin": "tóngxué", "vi": "bạn học", "tones": [2, 2] },
+    { "hanzi": "朋友", "pinyin": "péngyou", "vi": "bạn bè", "tones": [2, 0] },
+    { "hanzi": "认识", "pinyin": "rènshi", "vi": "quen biết", "tones": [4, 0] },
+    { "hanzi": "高兴", "pinyin": "gāoxìng", "vi": "vui mừng", "tones": [1, 4] }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "lesson-05-daily-objects",
+  "order": 5,
+  "title": "Bài 5: Hoạt động & đồ vật hằng ngày",
+  "level": "HSK1",
+  "intro": "Các động từ thường dùng (ăn, uống, xem...) và đồ vật quen thuộc. Ghép với đại từ để tạo câu đơn giản hằng ngày.",
+  "vocab": [
+    { "hanzi": "吃", "pinyin": "chī", "vi": "ăn", "tones": [1], "example": { "hanzi": "我吃饭。", "pinyin": "Wǒ chī fàn.", "vi": "Tôi ăn cơm." } },
+    { "hanzi": "喝", "pinyin": "hē", "vi": "uống", "tones": [1] },
+    { "hanzi": "看", "pinyin": "kàn", "vi": "xem, nhìn", "tones": [4] },
+    { "hanzi": "听", "pinyin": "tīng", "vi": "nghe", "tones": [1] },
+    { "hanzi": "说", "pinyin": "shuō", "vi": "nói", "tones": [1] },
+    { "hanzi": "看书", "pinyin": "kàn shū", "vi": "đọc sách", "tones": [4, 1] },
+    { "hanzi": "喝水", "pinyin": "hē shuǐ", "vi": "uống nước", "tones": [1, 3] },
+    { "hanzi": "饭", "pinyin": "fàn", "vi": "cơm", "tones": [4] },
+    { "hanzi": "水", "pinyin": "shuǐ", "vi": "nước", "tones": [3] },
+    { "hanzi": "茶", "pinyin": "chá", "vi": "trà", "tones": [2] },
+    { "hanzi": "书", "pinyin": "shū", "vi": "sách", "tones": [1] },
+    { "hanzi": "菜", "pinyin": "cài", "vi": "món ăn, rau", "tones": [4] },
+    { "hanzi": "苹果", "pinyin": "píngguǒ", "vi": "quả táo", "tones": [2, 3] },
+    { "hanzi": "电视", "pinyin": "diànshì", "vi": "tivi", "tones": [4, 4] },
+    { "hanzi": "电脑", "pinyin": "diànnǎo", "vi": "máy tính", "tones": [4, 3] },
+    { "hanzi": "手机", "pinyin": "shǒujī", "vi": "điện thoại", "tones": [3, 1] },
+    { "hanzi": "水果", "pinyin": "shuǐguǒ", "vi": "trái cây", "tones": [3, 3] },
+    { "hanzi": "学习", "pinyin": "xuéxí", "vi": "học tập", "tones": [2, 2] }
+  ]
+}

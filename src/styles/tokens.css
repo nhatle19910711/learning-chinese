@@ -1,0 +1,54 @@
+/* Design tokens — màu, spacing, font. Dark mode override qua [data-theme="dark"]. */
+:root {
+  /* Font */
+  --font-ui: 'Noto Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-cjk: 'Noto Sans SC', var(--font-ui);
+
+  /* Spacing scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-8: 48px;
+
+  /* Radius & shadow */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.05);
+
+  /* Light theme colors */
+  --color-bg: #f6f7fb;
+  --color-surface: #ffffff;
+  --color-card: #ffffff;
+  --color-fg: #1c2333;
+  --color-muted: #6b7280;
+  --color-border: #e5e7eb;
+  --color-primary: #d23b3b;        /* đỏ Trung Hoa */
+  --color-primary-fg: #ffffff;
+  --color-primary-soft: #fdecec;
+  --color-accent: #c89b3c;         /* vàng */
+  --color-success: #16a34a;
+  --color-success-soft: #dcfce7;
+  --color-danger: #dc2626;
+  --color-danger-soft: #fee2e2;
+}
+
+[data-theme='dark'] {
+  --color-bg: #14161c;
+  --color-surface: #1c1f27;
+  --color-card: #20242e;
+  --color-fg: #eceef3;
+  --color-muted: #9aa3b2;
+  --color-border: #2c313c;
+  --color-primary: #e85d5d;
+  --color-primary-fg: #ffffff;
+  --color-primary-soft: #3a2222;
+  --color-accent: #d9b15a;
+  --color-success: #22c55e;
+  --color-success-soft: #14331f;
+  --color-danger: #f87171;
+  --color-danger-soft: #3a1f1f;
+}

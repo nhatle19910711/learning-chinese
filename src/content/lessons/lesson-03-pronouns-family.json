@@ -1,0 +1,27 @@
+{
+  "id": "lesson-03-pronouns-family",
+  "order": 3,
+  "title": "Bài 3: Đại từ & gia đình",
+  "level": "HSK1",
+  "intro": "Các đại từ nhân xưng (tôi, bạn, anh ấy...) và từ vựng về thành viên gia đình. Kết hợp với 是 để giới thiệu bản thân.",
+  "vocab": [
+    { "hanzi": "我", "pinyin": "wǒ", "vi": "tôi", "tones": [3], "example": { "hanzi": "我是学生。", "pinyin": "Wǒ shì xuésheng.", "vi": "Tôi là học sinh." } },
+    { "hanzi": "你", "pinyin": "nǐ", "vi": "bạn", "tones": [3] },
+    { "hanzi": "他", "pinyin": "tā", "vi": "anh ấy", "tones": [1] },
+    { "hanzi": "她", "pinyin": "tā", "vi": "cô ấy", "tones": [1] },
+    { "hanzi": "我们", "pinyin": "wǒmen", "vi": "chúng tôi", "tones": [3, 0] },
+    { "hanzi": "他们", "pinyin": "tāmen", "vi": "họ (nam)", "tones": [1, 0] },
+    { "hanzi": "爸爸", "pinyin": "bàba", "vi": "bố", "tones": [4, 0] },
+    { "hanzi": "妈妈", "pinyin": "māma", "vi": "mẹ", "tones": [1, 0] },
+    { "hanzi": "哥哥", "pinyin": "gēge", "vi": "anh trai", "tones": [1, 0] },
+    { "hanzi": "姐姐", "pinyin": "jiějie", "vi": "chị gái", "tones": [3, 0] },
+    { "hanzi": "弟弟", "pinyin": "dìdi", "vi": "em trai", "tones": [4, 0] },
+    { "hanzi": "妹妹", "pinyin": "mèimei", "vi": "em gái", "tones": [4, 0] },
+    { "hanzi": "家", "pinyin": "jiā", "vi": "nhà, gia đình", "tones": [1] },
+    { "hanzi": "儿子", "pinyin": "érzi", "vi": "con trai", "tones": [2, 0] },
+    { "hanzi": "女儿", "pinyin": "nǚ'ér", "vi": "con gái", "tones": [3, 2] },
+    { "hanzi": "学生", "pinyin": "xuésheng", "vi": "học sinh", "tones": [2, 0] },
+    { "hanzi": "名字", "pinyin": "míngzi", "vi": "tên", "tones": [2, 0], "example": { "hanzi": "你叫什么名字？", "pinyin": "Nǐ jiào shénme míngzi?", "vi": "Bạn tên là gì?" } },
+    { "hanzi": "叫", "pinyin": "jiào", "vi": "gọi, tên là", "tones": [4] }
+  ]
+}

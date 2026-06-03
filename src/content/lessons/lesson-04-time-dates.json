@@ -1,0 +1,27 @@
+{
+  "id": "lesson-04-time-dates",
+  "order": 4,
+  "title": "Bài 4: Thời gian & ngày tháng",
+  "level": "HSK1",
+  "intro": "Từ vựng về ngày, tháng, hôm nay, ngày mai và cách nói giờ. Rất cần thiết để hẹn gặp và sắp xếp công việc.",
+  "vocab": [
+    { "hanzi": "今天", "pinyin": "jīntiān", "vi": "hôm nay", "tones": [1, 1] },
+    { "hanzi": "明天", "pinyin": "míngtiān", "vi": "ngày mai", "tones": [2, 1] },
+    { "hanzi": "昨天", "pinyin": "zuótiān", "vi": "hôm qua", "tones": [2, 1] },
+    { "hanzi": "年", "pinyin": "nián", "vi": "năm", "tones": [2] },
+    { "hanzi": "月", "pinyin": "yuè", "vi": "tháng", "tones": [4] },
+    { "hanzi": "日", "pinyin": "rì", "vi": "ngày", "tones": [4] },
+    { "hanzi": "号", "pinyin": "hào", "vi": "ngày (trong tháng)", "tones": [4] },
+    { "hanzi": "星期", "pinyin": "xīngqī", "vi": "tuần", "tones": [1, 1] },
+    { "hanzi": "现在", "pinyin": "xiànzài", "vi": "bây giờ", "tones": [4, 4] },
+    { "hanzi": "点", "pinyin": "diǎn", "vi": "giờ (điểm)", "tones": [3], "example": { "hanzi": "现在几点？", "pinyin": "Xiànzài jǐ diǎn?", "vi": "Bây giờ mấy giờ?" } },
+    { "hanzi": "分钟", "pinyin": "fēnzhōng", "vi": "phút", "tones": [1, 1] },
+    { "hanzi": "上午", "pinyin": "shàngwǔ", "vi": "buổi sáng", "tones": [4, 3] },
+    { "hanzi": "中午", "pinyin": "zhōngwǔ", "vi": "buổi trưa", "tones": [1, 3] },
+    { "hanzi": "下午", "pinyin": "xiàwǔ", "vi": "buổi chiều", "tones": [4, 3] },
+    { "hanzi": "时候", "pinyin": "shíhou", "vi": "lúc, khi", "tones": [2, 0] },
+    { "hanzi": "星期几", "pinyin": "xīngqī jǐ", "vi": "thứ mấy", "tones": [1, 1, 3] },
+    { "hanzi": "今年", "pinyin": "jīnnián", "vi": "năm nay", "tones": [1, 2] },
+    { "hanzi": "生日", "pinyin": "shēngrì", "vi": "sinh nhật", "tones": [1, 4] }
+  ]
+}

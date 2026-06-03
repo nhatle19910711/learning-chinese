@@ -1,0 +1,22 @@
+{
+  "id": "lesson-00-pinyin-tones",
+  "order": 0,
+  "title": "Bài 0: Pinyin & 4 thanh điệu",
+  "level": "pinyin",
+  "intro": "Tiếng Trung có 4 thanh điệu chính + khinh thanh. Cùng một âm 'ma' nhưng khác thanh là khác nghĩa. Thanh 1: cao và bằng (ā). Thanh 2: đi lên như hỏi (á). Thanh 3: xuống rồi lên (ǎ). Thanh 4: xuống dứt khoát (à). Khinh thanh: nhẹ, ngắn (a). Hãy nghe và lặp lại từng âm.",
+  "vocab": [
+    { "hanzi": "妈", "pinyin": "mā", "vi": "mẹ (thanh 1 – cao bằng)", "tones": [1] },
+    { "hanzi": "麻", "pinyin": "má", "vi": "cây gai (thanh 2 – đi lên)", "tones": [2] },
+    { "hanzi": "马", "pinyin": "mǎ", "vi": "con ngựa (thanh 3 – xuống rồi lên)", "tones": [3] },
+    { "hanzi": "骂", "pinyin": "mà", "vi": "mắng (thanh 4 – xuống)", "tones": [4] },
+    { "hanzi": "吗", "pinyin": "ma", "vi": "trợ từ nghi vấn (khinh thanh)", "tones": [0] },
+    { "hanzi": "八", "pinyin": "bā", "vi": "số tám (thanh 1)", "tones": [1] },
+    { "hanzi": "拔", "pinyin": "bá", "vi": "nhổ, rút (thanh 2)", "tones": [2] },
+    { "hanzi": "把", "pinyin": "bǎ", "vi": "cầm, nắm (thanh 3)", "tones": [3] },
+    { "hanzi": "爸", "pinyin": "bà", "vi": "bố (thanh 4)", "tones": [4] },
+    { "hanzi": "一", "pinyin": "yī", "vi": "số một (thanh 1)", "tones": [1] },
+    { "hanzi": "鱼", "pinyin": "yú", "vi": "con cá (thanh 2)", "tones": [2] },
+    { "hanzi": "雨", "pinyin": "yǔ", "vi": "mưa (thanh 3)", "tones": [3] },
+    { "hanzi": "月", "pinyin": "yuè", "vi": "tháng, mặt trăng (thanh 4)", "tones": [4] }
+  ]
+}
